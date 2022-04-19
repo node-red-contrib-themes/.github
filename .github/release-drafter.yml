@@ -1,0 +1,41 @@
+---
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+sort-direction: ascending
+
+categories:
+  - title: "🚨 Breaking changes"
+    labels:
+      - "breaking change"
+  - title: "✨ New theme"
+    labels:
+      - "new theme"
+  - title: "🐛 Bug fixes"
+    labels:
+      - "bug"
+  - title: "🚀 Enhancements"
+    labels:
+      - "enhancement"
+  - title: "📚 Documentation"
+    labels:
+      - "documentation"
+  - title: "⬆️ Dependency updates"
+    labels:
+      - "dependencies"
+
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+
+template: |
+  ## What’s changed
+
+  $CHANGES
