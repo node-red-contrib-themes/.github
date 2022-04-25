@@ -12,7 +12,7 @@ categories:
       - "new theme"
   - title: "🐛 Bug fixes"
     labels:
-      - "bug"
+      - "bugfix"
   - title: "🚀 Enhancements"
     labels:
       - "enhancement"
