@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Theme Request
+    url: https://github.com/node-red-contrib-themes/theme-collection/issues/new?assignees=&labels=theme+request&template=theme_request.md&title=
+    about: Suggest a new theme
